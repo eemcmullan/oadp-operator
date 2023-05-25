@@ -362,12 +362,8 @@ spec:
             moverSecurityContext: true
         ocs-storagecluster-ceph-rbd:
           sourceVolumeOptions:
-            storageClassName: ocs-storagecluster-ceph-rbd
-            cacheStorageClassName: ocs-storagecluster-ceph-rbd
             moverSecurityContext: true
           destinationVolumeOptions:
-            storageClassName: ocs-storagecluster-ceph-rbd
-            cacheStorageClassName: ocs-storagecluster-ceph-rbd
             moverSecurityContext: true
 ```
 
